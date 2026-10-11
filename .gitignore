@@ -1,0 +1,33 @@
+# Python / virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Local datasets and large generated files
+data/*
+!data/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Source EPUB / copyrighted books do not belong in this repo
+*.epub

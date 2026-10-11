@@ -1,0 +1,16 @@
+[project]
+name = "hands-on-ml-study"
+version = "0.1.0"
+description = "Personal discussion-led machine learning notebooks"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel",
+    "jupyterlab",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+]
+
+[tool.uv]
+package = false
