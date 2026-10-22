@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="230" viewBox="0 0 940 230" role="img" aria-labelledby="title desc">
+<title id="title">Model-based learning workflow</title>
+<desc id="desc">Five stages: prepare data, select a linear model, define a cost function, train to learn parameters, and predict on new inputs.</desc>
+<rect width="940" height="230" rx="14" fill="#ffffff"/>
+<text x="470" y="32" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#182e40">Model-Based Learning Workflow</text>
+<g font-family="Arial,sans-serif">
+<g fill="#edf4fa" stroke="#7898b1" stroke-width="1.5">
+<rect x="18" y="70" width="160" height="99" rx="10"/><rect x="204" y="70" width="160" height="99" rx="10"/><rect x="390" y="70" width="160" height="99" rx="10"/><rect x="576" y="70" width="160" height="99" rx="10"/></g>
+<rect x="762" y="70" width="160" height="99" rx="10" fill="#def5ed" stroke="#4e9d80" stroke-width="1.5"/>
+<g fill="#1b344a" text-anchor="middle">
+<text x="98" y="97" font-size="16" font-weight="bold">1. Prepare data</text><text x="98" y="123" font-size="13">GDP per capita</text><text x="98" y="144" font-size="13">Life satisfaction</text>
+<text x="284" y="97" font-size="16" font-weight="bold">2. Select model</text><text x="284" y="126" font-size="14">y = θ₀ + θ₁x</text>
+<text x="470" y="97" font-size="16" font-weight="bold">3. Define cost</text><text x="470" y="123" font-size="13">Measure prediction</text><text x="470" y="143" font-size="13">errors</text>
+<text x="656" y="97" font-size="16" font-weight="bold">4. Train</text><text x="656" y="123" font-size="13">Find θ₀ and θ₁</text><text x="656" y="143" font-size="13">fit(X, y)</text>
+<text x="842" y="97" font-size="16" font-weight="bold">5. Predict</text><text x="842" y="123" font-size="13">New GDP value</text><text x="842" y="143" font-size="13">predict(X_new)</text>
+</g><g stroke="#4e6479" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M181 120h18m-6 -5 6 5 -6 5"/><path d="M367 120h18m-6 -5 6 5 -6 5"/><path d="M553 120h18m-6 -5 6 5 -6 5"/><path d="M739 120h18m-6 -5 6 5 -6 5"/>
+</g><text x="470" y="202" text-anchor="middle" font-size="13" fill="#536679">The trained model applies its learned parameters to unseen inputs.</text>
+</g></svg>
